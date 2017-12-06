@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Create_Static_Report
+namespace Create_Data_Aware_Report
 {
     static class Program
     {
@@ -13,7 +13,7 @@ namespace Create_Static_Report
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form01());
+            Application.Run(new Form02());
         }
     }
 }

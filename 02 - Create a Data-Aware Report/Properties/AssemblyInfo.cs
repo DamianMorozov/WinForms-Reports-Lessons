@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("01 - Create a Static Report")]
+[assembly: AssemblyTitle("02 - Create a Data-Aware Report")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("01 - Create a Static Report")]
+[assembly: AssemblyProduct("02 - Create a Data-Aware Report")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("838b35bf-bc07-41ec-a75e-97c1fc3d1ba6")]
+[assembly: Guid("47261b1c-cc89-46d8-b3d7-8ef85ba1c73e")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //
