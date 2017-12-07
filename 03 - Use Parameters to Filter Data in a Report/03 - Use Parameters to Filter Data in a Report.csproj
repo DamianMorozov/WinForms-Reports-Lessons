@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47261B1C-CC89-46D8-B3D7-8EF85BA1C73E}</ProjectGuid>
+    <ProjectGuid>{F5CF72DC-4F1F-40F0-9A80-F3B9475221C4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Create_Data_Aware_Report</RootNamespace>
-    <AssemblyName>02 - Create a Data-Aware Report</AssemblyName>
+    <RootNamespace>Use_Parameters_to_Filter_Data_in_a_Report</RootNamespace>
+    <AssemblyName>03 - Use Parameters to Filter Data in a Report</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Create_Data_Aware_Report.Program</StartupObject>
+    <StartupObject>Use_Parameters_to_Filter_Data_in_a_Report.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -68,11 +68,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form02.cs">
+    <Compile Include="Form03.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form02.Designer.cs">
-      <DependentUpon>Form02.cs</DependentUpon>
+    <Compile Include="Form03.Designer.cs">
+      <DependentUpon>Form03.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,8 +82,8 @@
     <Compile Include="XtraReport1.Designer.cs">
       <DependentUpon>XtraReport1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form02.resx">
-      <DependentUpon>Form02.cs</DependentUpon>
+    <EmbeddedResource Include="Form03.resx">
+      <DependentUpon>Form03.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
