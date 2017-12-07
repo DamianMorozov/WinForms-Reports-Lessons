@@ -1,6 +1,6 @@
-﻿namespace Create_Static_Report
+﻿namespace Provide_Navigation_to_Report
 {
-    partial class Form01
+    partial class Form04
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -38,21 +38,21 @@
             this.buttonRunReport.Location = new System.Drawing.Point(12, 12);
             this.buttonRunReport.Name = "buttonRunReport";
             this.buttonRunReport.Size = new System.Drawing.Size(360, 23);
-            this.buttonRunReport.TabIndex = 0;
+            this.buttonRunReport.TabIndex = 3;
             this.buttonRunReport.Text = "Run report";
             this.buttonRunReport.UseVisualStyleBackColor = true;
             this.buttonRunReport.Click += new System.EventHandler(this.buttonRunReport_Click);
             // 
-            // Form01
+            // Form04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 47);
             this.Controls.Add(this.buttonRunReport);
             this.MaximizeBox = false;
-            this.Name = "Form01";
+            this.Name = "Form04";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "01 - Create a Static Report";
+            this.Text = "Provide Navigation to a Report";
             this.ResumeLayout(false);
 
         }

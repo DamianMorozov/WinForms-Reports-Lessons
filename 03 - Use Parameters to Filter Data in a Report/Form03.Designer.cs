@@ -33,9 +33,11 @@
             // 
             // buttonRunReport
             // 
+            this.buttonRunReport.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonRunReport.Location = new System.Drawing.Point(12, 12);
             this.buttonRunReport.Name = "buttonRunReport";
-            this.buttonRunReport.Size = new System.Drawing.Size(310, 23);
+            this.buttonRunReport.Size = new System.Drawing.Size(360, 23);
             this.buttonRunReport.TabIndex = 2;
             this.buttonRunReport.Text = "Run report";
             this.buttonRunReport.UseVisualStyleBackColor = true;
@@ -45,9 +47,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 47);
+            this.ClientSize = new System.Drawing.Size(384, 47);
             this.Controls.Add(this.buttonRunReport);
+            this.MaximizeBox = false;
             this.Name = "Form03";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Use_Parameters_to_Filter_Data_in_a_Report";
             this.ResumeLayout(false);
 

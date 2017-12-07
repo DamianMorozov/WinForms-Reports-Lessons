@@ -1,4 +1,5 @@
 ﻿using System.Windows.Forms;
+using DevExpress.XtraReports.UI;
 
 namespace Create_Static_Report
 {
@@ -11,7 +12,8 @@ namespace Create_Static_Report
 
         private void buttonRunReport_Click(object sender, System.EventArgs e)
         {
-            //XtraReport1.
+            var report = new XtraReport1();
+            report.ShowPreview();
         }
     }
 }

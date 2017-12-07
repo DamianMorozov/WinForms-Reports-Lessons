@@ -1,4 +1,5 @@
 ﻿using System.Windows.Forms;
+using DevExpress.XtraReports.UI;
 
 namespace Use_Parameters_to_Filter_Data_in_a_Report
 {
@@ -11,7 +12,8 @@ namespace Use_Parameters_to_Filter_Data_in_a_Report
 
         private void buttonRunReport_Click(object sender, System.EventArgs e)
         {
-            //
+            var report = new XtraReport1();
+            report.ShowPreview();
         }
     }
 }
